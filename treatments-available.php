@@ -12,7 +12,7 @@
                     <div class="row">
                         <div class="large-6 columns">
                             <h3>Theralase 3D 660 nm</h3>
-                            <ul>
+                            <ul class="small-list">
                                 <li>Anti-Inflammation
                                 <li>Anti-Pain (Analgesic)
                                 <li>Accelerated Tissue Repair and Cell Growth
@@ -33,8 +33,8 @@
                     <div class="row">
                         <div class="large-6 columns">
                             <h3>Decompression Therapy</h3>
-                            Peripheral radiation/sciatica and pain associated with:
-                            <ul>
+                            <span class="small-text">Peripheral radiation/sciatica and pain associated with:</span>
+                            <ul class="small-list">
                                 <li>Bulging/Herniated discs
                                 <li>Degenerative Disc Disease
                                 <li>Spinal root impingement
@@ -53,8 +53,8 @@
                     <div class="row">
                         <div class="large-6 columns">
                             <h3>Shockwave Therapy</h3>
-                            Treatable Conditions:
-                            <ul>
+                            <span class="small-text">Treatable Conditions:</span>
+                            <ul class="small-list">
                                 <li>Plantar Fasciitis
                                 <li>Achilles Tendinopathy 
                                 <li>Scar Tissue Treatment 
@@ -64,8 +64,8 @@
                                 <li>Non Healing Ulcers 
                                 <li>Calcific Rotator Cuff Tendinitis 
                             </ul>
-                            Benefits:
-                            <ul>
+                            <span class="small-text">Benefits:</span>
+                            <ul class="small-list">
                                 <li>Non surgical treatment
                                 <li>No side effects
                                 <li>Accelerates healing

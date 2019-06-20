@@ -25,6 +25,7 @@ $desktop-width: 1025px;
     height: $height;
 }
 
+
 @mixin parent-valign{
     display: table-cell;
     vertical-align: middle;
@@ -147,8 +148,7 @@ h3 {
     font-size: 1.1em;
     font-weight: normal;
     color: $highlight !important;
-    margin: 0 0 0.3em;
-    // line-height: 1.5em;
+    margin: 0 0 0.7em;
 }
 
 h4 {
@@ -191,6 +191,12 @@ a:hover,a:active {
 ul, ol {
     padding: 0;
     margin: 0;
+    &.small-list {
+        font-size: 0.8em;
+        li {
+            margin-bottom: 0.3em;
+        }
+    } 
 }
 
 #content {
@@ -404,7 +410,7 @@ textarea {
 #header-inner #searchform input#kw,
 #mobile-selector #searchform input#kw
 {
-    background: url(images/icon-search-dark.png) no-repeat 14px 7px #fff;
+    background: url(/images/icon-search-dark.png) no-repeat 14px 7px #fff;
     width: 350px;
     border: 1px solid rgba(255, 255, 255, 0.4);
     background-position: 5px 7px;
@@ -433,7 +439,7 @@ textarea {
 #mobile-selector #searchform #searchbtn {
     float: right;
 /*    transition: padding,width .6s ease 0s;*/
-    background: url(images/icon-search.png) no-repeat 14px 7px transparent;
+    background: url(/images/icon-search.png) no-repeat 14px 7px transparent;
     padding: 0px;
     width: 40px;
     border: 0 none;
@@ -452,7 +458,7 @@ textarea {
 #searchclose {
     width: 40px;
     height: 40px;
-    background: url(images/icon-close.png) no-repeat center center #121212;
+    background: url(/images/icon-close.png) no-repeat center center #121212;
     position: absolute;
     right: 0;
     z-index: 2000;
@@ -687,7 +693,7 @@ header#site-header {
 }
 
 .full-width-img-home {
-    background: url(images/homepage-chiropractic.jpg); /* default image*/
+    background: url(/images/homepage-chiropractic.jpg); /* default image*/
     min-height: 580px;
     max-height: 600px;
     padding-top: 40px;
@@ -719,7 +725,7 @@ header#site-header {
 }
 
 .full-width-img-internal {
-    background: url(images/default-parallax-image-header.jpg) repeat scroll transparent;
+    background: url(/images/default-parallax-image-header.jpg) repeat scroll transparent;
 }
 
 /*two paddings depending on transparent or not*/
@@ -747,12 +753,12 @@ header#site-header {
 }
 
 #header-grad {
-    background: url(images/full-width-feature-grad.png) repeat-x top;
+    background: url(/images/full-width-feature-grad.png) repeat-x top;
     position: relative;
 }
 
 #internal-header-grad {
-    background: url(images/header-gradient.png) repeat-x top;
+    background: url(/images/header-gradient.png) repeat-x top;
     height: 100%;
     padding: 88px 0 20px;
 }
@@ -1037,7 +1043,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 }
 
 #menu-right-wrapper ul.sub-menu::before {
-    background: url("images/menu_arrow.png") no-repeat 150px center transparent;
+    background: url("/images/menu_arrow.png") no-repeat 150px center transparent;
     content: "";
     display: block;
     height: 8px;
@@ -1256,8 +1262,8 @@ nav > div.nav-ul-wrapper > ul > li > ul {
     
     #mobile-selector {
         box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
-        // background: no-repeat right url(images/icon-mobile.png) $light-bg;
-        background: no-repeat right url(images/icon-mobile.png) $dark-bg;
+        // background: no-repeat right url(/images/icon-mobile.png) $light-bg;
+        background: no-repeat right url(/images/icon-mobile.png) $dark-bg;
         height: 40px;
         // border-bottom: 1px solid #dadada;
         border-bottom: 1px solid $dark-border-color;
@@ -1506,7 +1512,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 /*catch phrase-------------------------------*/
 
 .catch-phrase {
-    background: url(images/pattern-dark-bg.png) repeat #7c7c7c;
+    background: url(/images/pattern-dark-bg.png) repeat #7c7c7c;
     padding: 30px;
 }
 
@@ -1525,7 +1531,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 /*footer top----------------------------*/
 
 #footertop {
-    background: url(images/bg-footer.jpg) no-repeat center center fixed;
+    background: url(/images/bg-footer.jpg) no-repeat center center fixed;
     background-size: cover;
     padding: 45px 20px 0;
 }
@@ -1844,7 +1850,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
     top: 100%;
     transition: all 0.2s ease-out 0s;
     width: 10px;
-    background: url("images/arrowDown.png") no-repeat scroll center top rgba(0, 0, 0, 0);
+    background: url("/images/arrowDown.png") no-repeat scroll center top rgba(0, 0, 0, 0);
 }
 
 /*dividers*/
@@ -1854,20 +1860,20 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 }
 
 .divider.large {
-    background: url("images/dotted4x3.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    background: url("/images/dotted4x3.gif") repeat scroll 0 0 rgba(0, 0, 0, 0);
     height: 10px;
 }
 
 .divider.shadow {
-    background: url("images/divider-shadow.png") no-repeat scroll left top / 100% 16px rgba(0, 0, 0, 0);
+    background: url("/images/divider-shadow.png") no-repeat scroll left top / 100% 16px rgba(0, 0, 0, 0);
     height: 16px;
     position: relative;
     width: 100%;
 }
 
 .divider.doublegrad {
-    background: url(images/divider-double-grad.png) no-repeat bottom / 100% 11px rgba(0, 0, 0, 0);
-/*    background: url("images/divider-double-grad.png") no-repeat scroll bottom / 100% auto rgba(0, 0, 0, 0);*/
+    background: url(/images/divider-double-grad.png) no-repeat bottom / 100% 11px rgba(0, 0, 0, 0);
+/*    background: url("/images/divider-double-grad.png") no-repeat scroll bottom / 100% auto rgba(0, 0, 0, 0);*/
     height: 16px;
     position: relative;
     width: 100%;
@@ -2056,7 +2062,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 /*arrow link*/
 
 .arrow-link {
-    background: url(images/arrow-hover.png) no-repeat transparent 120%;
+    background: url(/images/arrow-hover.png) no-repeat transparent 120%;
     -webkit-transition: .1s linear;
     -o-transition: .1s linear;
     -moz-transition: .1s linear;
@@ -2064,7 +2070,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
 
 .arrow-link:hover {
     padding-right: 20px;
-    background: url(images/arrow-hover.png) no-repeat transparent right;
+    background: url(/images/arrow-hover.png) no-repeat transparent right;
     color: #121212 !important;
 }
 
@@ -2217,7 +2223,7 @@ nav > div.nav-ul-wrapper > ul > li > ul {
     position: relative;
     background: #fff;
     min-height: 40px;
-    background: url(images/bg-main.jpg) no-repeat center center fixed;
+    background: url(/images/bg-main.jpg) no-repeat center center fixed;
     /*    cover screen no matter what*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -2613,7 +2619,7 @@ border-bottom: 0 none !important;
 }
 
 .sidenav > li a:hover  {
-    background: url(images/submenu-over-point.png) left 10px no-repeat;
+    background: url(/images/submenu-over-point.png) left 10px no-repeat;
     color: #feb41c;
     font-weight: bold;
     padding-left: 15px;
@@ -2637,7 +2643,7 @@ border-bottom: 0 none !important;
 }
 
 .secondary-nav > h5 {
-    background: url("images/submenu-over-point.png") no-repeat scroll left 12px rgba(0, 0, 0, 0);
+    background: url("/images/submenu-over-point.png") no-repeat scroll left 12px rgba(0, 0, 0, 0);
     color: #333;
     font-weight: bold;
     padding-left: 15px;

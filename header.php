@@ -7,7 +7,7 @@
       <meta charset="UTF-8" />
       
       <link rel='stylesheet' id='default-style-css'  href='css/global.css' type='text/css' media='all' />
-      <link rel='stylesheet' id='default-style-css'  href='style.css' type='text/css' media='all' />
+      <link rel='stylesheet' id='default-style-css'  href='css/style.css' type='text/css' media='all' />
       
       <script type='text/javascript' src='https://code.jquery.com/jquery-1.10.2.min.js'></script>
       

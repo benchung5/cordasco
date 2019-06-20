@@ -1,0 +1,23 @@
+{
+  "name": "cordasco",
+  "version": "1.0.0",
+  "description": "cordasco site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch sass -o css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benchung5/cordasco.git"
+  },
+  "author": "Ben Chung",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benchung5/cordasco/issues"
+  },
+  "homepage": "https://github.com/benchung5/cordasco#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  }
+}
